@@ -18,7 +18,7 @@ app.layout = create_layout()
 # Register callbacks
 register_callbacks(app)
 
-#server = app.server  # For deployment
+server = app.server  # For deployment
 #http://127.0.0.1:8062/
 if __name__ == '__main__':
     app.run_server(debug=True, port=8062)
